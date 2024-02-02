@@ -42,7 +42,9 @@ body{
 }
 
 h4 {
-    border:3px solid rgb(186, 194, 186);
+    background-color: rgb(240, 243, 243);
+    border: 3px solid rgb(186, 194, 186);
+    width: auto;
     padding-left:380.9px;
     font-weight: 100px;
     margin: 20px;
@@ -51,5 +53,9 @@ h4 {
 @media screen and (max-width: 500px) {
     .column {
       flex-wrap: wrap;
+    }
+
+    .border {
+        flex-wrap: wrap;
     }
 
